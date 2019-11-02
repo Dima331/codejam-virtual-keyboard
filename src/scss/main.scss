@@ -1,0 +1,42 @@
+@import "base/*.scss";
+@import "elements/*.scss";
+.wrapper {
+    width: 875px;
+    margin: 0 auto;
+}
+
+.keywords {
+    display: flex;
+    flex-direction: column;
+}
+
+.keywords__row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.key {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.slasher,
+.tab {
+    min-width: 80px;
+}
+
+.shift {
+    min-width: 135px;
+}
+
+.enter {
+    min-width: 135px;
+}
+
+.space {
+    min-width: 370px;
+}

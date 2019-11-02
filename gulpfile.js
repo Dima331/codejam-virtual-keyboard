@@ -67,9 +67,9 @@ gulp.task('pug', () => {
 gulp.task("scripts", () => {
     return gulp.src(lib)
         //.pipe(sourcemaps.init())
-        .pipe(eslint())
-        .pipe(eslint.format())
-        .pipe(eslint.failAfterError())
+        // .pipe(eslint())
+        // .pipe(eslint.format())
+        // .pipe(eslint.failAfterError())
         .pipe(concat('main.min.js', { newLine: ";" }))
         .pipe(babel({
             presets: ['@babel/env']
