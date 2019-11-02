@@ -1,23 +1,19 @@
 const keys = [
-        { 'en': ['`', '~'], 'ru': ['ё', 'Ё'], 'keyCode': 192, 'class': 'Backquote' },
-        { 'en': ['1', '!'], 'ru': ['1', '!'], 'keyCode': 49, 'class': 'Digital1' },
-        { 'en': ['2', '@'], 'ru': ['2', '"'], 'keyCode': 50, 'class': 'Digital2' },
-        { 'en': ['3', '#'], 'ru': ['3', '№'], 'keyCode': 51, 'class': 'Digital3' },
-        { 'en': ['4', '$'], 'ru': ['4', ';'], 'keyCode': 52, 'class': 'Digital4' },
-        { 'en': ['5', '%'], 'ru': ['5', '%'], 'keyCode': 53, 'class': 'Digital5' },
-        { 'en': ['6', '^'], 'ru': ['6', ':'], 'keyCode': 54, 'class': 'Digital6' },
-        { 'en': ['7', '&'], 'ru': ['7', '?'], 'keyCode': 55, 'class': 'Digital7' },
-        { 'en': ['8', '*'], 'ru': ['8', '*'], 'keyCode': 56, 'class': 'Digital8' },
-        { 'en': ['9', '('], 'ru': ['9', '('], 'keyCode': 57, 'class': 'Digital9' },
-        { 'en': ['0', ')'], 'ru': ['0', ')'], 'keyCode': 48, 'class': 'Digital0' },
-        { 'en': ['-', '_'], 'ru': ['-', '_'], 'keyCode': 189, 'class': 'Minus' },
-        { 'en': ['=', '+'], 'ru': ['=', '+'], 'keyCode': 187, 'class': 'Equal' },
-        { 'en': ['Backspace', 'Backspace'], 'ru': ['Backspace', 'Backspace'], 'keyCode': 8, 'class': 'Backspace', 'sizeClass': 'backspace' }
-    ]
-    //console.log(keys[0].en.length)
-    // console.log(keys[0].en)
-    // console.log(keys[0].en[0])
-    // console.log(keys[0].keyCode)
+    { 'en': ['`', '~'], 'ru': ['ё', 'Ё'], 'keyCode': 192, 'class': 'Backquote' },
+    { 'en': ['1', '!'], 'ru': ['1', '!'], 'keyCode': 49, 'class': 'Digital1' },
+    { 'en': ['2', '@'], 'ru': ['2', '"'], 'keyCode': 50, 'class': 'Digital2' },
+    { 'en': ['3', '#'], 'ru': ['3', '№'], 'keyCode': 51, 'class': 'Digital3' },
+    { 'en': ['4', '$'], 'ru': ['4', ';'], 'keyCode': 52, 'class': 'Digital4' },
+    { 'en': ['5', '%'], 'ru': ['5', '%'], 'keyCode': 53, 'class': 'Digital5' },
+    { 'en': ['6', '^'], 'ru': ['6', ':'], 'keyCode': 54, 'class': 'Digital6' },
+    { 'en': ['7', '&'], 'ru': ['7', '?'], 'keyCode': 55, 'class': 'Digital7' },
+    { 'en': ['8', '*'], 'ru': ['8', '*'], 'keyCode': 56, 'class': 'Digital8' },
+    { 'en': ['9', '('], 'ru': ['9', '('], 'keyCode': 57, 'class': 'Digital9' },
+    { 'en': ['0', ')'], 'ru': ['0', ')'], 'keyCode': 48, 'class': 'Digital0' },
+    { 'en': ['-', '_'], 'ru': ['-', '_'], 'keyCode': 189, 'class': 'Minus' },
+    { 'en': ['=', '+'], 'ru': ['=', '+'], 'keyCode': 187, 'class': 'Equal' },
+    { 'en': ['Backspace', 'Backspace'], 'ru': ['Backspace', 'Backspace'], 'keyCode': 8, 'class': 'Backspace', 'sizeClass': 'backspace' }
+]
 
 let div = document.createElement('div');
 div.className = "wrapper";
@@ -81,6 +77,40 @@ for (var i = 0; i < keys.length; i++) {
         spanOff.append(caseRu)
         counter = false
     }
-
-
 }
+
+var click = document.querySelector('.keywords__row');
+
+click.addEventListener("click", function(e) {
+        var trigger;
+
+        if (e.target.classList.contains("keywords__row")) {
+            return
+        }
+        if (e.target.classList.contains("key")) {
+            trigger = e.target;
+        } else {
+            trigger = e.target.parentNode.parentNode;
+        }
+
+        for (var i = 0; i < trigger.childNodes.length; i++) {
+            if (trigger.childNodes[i].classList.contains('on')) {
+                var tr = trigger.childNodes[i]
+
+                for (var j = 0; j < tr.childNodes.length; j++) {
+                    if (tr.childNodes[j].classList.contains('up')) {
+                        var tr2 = tr.childNodes[j]
+                    }
+                }
+            }
+        }
+        console.log(tr2.innerHTML)
+            //trigger.classList.contains('on').classList.contains('up')
+            // if(trigger.childNodes.className == 'on'){
+
+        // }
+
+        textarea.value = textarea.value + tr2.innerHTML
+    })
+    // console.log(tr2.innerHTML)
+    // var slkdf = tr2.innerHTML;
