@@ -1,15 +1,15 @@
 const keys = [
     { 'en': ['`', '~'], 'ru': ['ё', 'Ё'], 'keyCode': 192, 'class': 'Backquote' },
-    { 'en': ['1', '!'], 'ru': ['1', '!'], 'keyCode': 49, 'class': 'Digital1' },
-    { 'en': ['2', '@'], 'ru': ['2', '"'], 'keyCode': 50, 'class': 'Digital2' },
-    { 'en': ['3', '#'], 'ru': ['3', '№'], 'keyCode': 51, 'class': 'Digital3' },
-    { 'en': ['4', '$'], 'ru': ['4', ';'], 'keyCode': 52, 'class': 'Digital4' },
-    { 'en': ['5', '%'], 'ru': ['5', '%'], 'keyCode': 53, 'class': 'Digital5' },
-    { 'en': ['6', '^'], 'ru': ['6', ':'], 'keyCode': 54, 'class': 'Digital6' },
-    { 'en': ['7', '&'], 'ru': ['7', '?'], 'keyCode': 55, 'class': 'Digital7' },
-    { 'en': ['8', '*'], 'ru': ['8', '*'], 'keyCode': 56, 'class': 'Digital8' },
-    { 'en': ['9', '('], 'ru': ['9', '('], 'keyCode': 57, 'class': 'Digital9' },
-    { 'en': ['0', ')'], 'ru': ['0', ')'], 'keyCode': 48, 'class': 'Digital0' },
+    { 'en': ['1', '!'], 'ru': ['1', '!'], 'keyCode': 49, 'class': 'Digit1' },
+    { 'en': ['2', '@'], 'ru': ['2', '"'], 'keyCode': 50, 'class': 'Digit2' },
+    { 'en': ['3', '#'], 'ru': ['3', '№'], 'keyCode': 51, 'class': 'Digit3' },
+    { 'en': ['4', '$'], 'ru': ['4', ';'], 'keyCode': 52, 'class': 'Digit4' },
+    { 'en': ['5', '%'], 'ru': ['5', '%'], 'keyCode': 53, 'class': 'Digit5' },
+    { 'en': ['6', '^'], 'ru': ['6', ':'], 'keyCode': 54, 'class': 'Digit6' },
+    { 'en': ['7', '&'], 'ru': ['7', '?'], 'keyCode': 55, 'class': 'Digit7' },
+    { 'en': ['8', '*'], 'ru': ['8', '*'], 'keyCode': 56, 'class': 'Digit8' },
+    { 'en': ['9', '('], 'ru': ['9', '('], 'keyCode': 57, 'class': 'Digit9' },
+    { 'en': ['0', ')'], 'ru': ['0', ')'], 'keyCode': 48, 'class': 'Digit0' },
     { 'en': ['-', '_'], 'ru': ['-', '_'], 'keyCode': 189, 'class': 'Minus' },
     { 'en': ['=', '+'], 'ru': ['=', '+'], 'keyCode': 187, 'class': 'Equal' },
     { 'en': ['Backspace', 'Backspace'], 'ru': ['Backspace', 'Backspace'], 'keyCode': 8, 'class': 'Backspace', 'sizeClass': 'backspace' }
@@ -82,35 +82,61 @@ for (var i = 0; i < keys.length; i++) {
 var click = document.querySelector('.keywords__row');
 
 click.addEventListener("click", function(e) {
-        var trigger;
+    var trigger;
 
-        if (e.target.classList.contains("keywords__row")) {
-            return
-        }
-        if (e.target.classList.contains("key")) {
-            trigger = e.target;
-        } else {
-            trigger = e.target.parentNode.parentNode;
-        }
+    if (e.target.classList.contains("keywords__row")) {
+        return
+    }
+    if (e.target.classList.contains("key")) {
+        trigger = e.target;
+    } else {
+        trigger = e.target.parentNode.parentNode;
+    }
 
-        for (var i = 0; i < trigger.childNodes.length; i++) {
-            if (trigger.childNodes[i].classList.contains('on')) {
-                var tr = trigger.childNodes[i]
+    for (var i = 0; i < trigger.childNodes.length; i++) {
+        if (trigger.childNodes[i].classList.contains('on')) {
+            var tr = trigger.childNodes[i]
 
-                for (var j = 0; j < tr.childNodes.length; j++) {
-                    if (tr.childNodes[j].classList.contains('up')) {
-                        var tr2 = tr.childNodes[j]
-                    }
+            for (var j = 0; j < tr.childNodes.length; j++) {
+                if (tr.childNodes[j].classList.contains('up')) {
+                    var tr2 = tr.childNodes[j]
                 }
             }
         }
-        console.log(tr2.innerHTML)
-            //trigger.classList.contains('on').classList.contains('up')
-            // if(trigger.childNodes.className == 'on'){
+    }
+    console.log(tr2.innerHTML)
+        //trigger.classList.contains('on').classList.contains('up')
+        // if(trigger.childNodes.className == 'on'){
 
-        // }
+    // }
+    trigger.classList.add('active')
+    setTimeout(function() { trigger.classList.remove('active') }, 200)
+    textarea.value = textarea.value + tr2.innerHTML
+})
 
-        textarea.value = textarea.value + tr2.innerHTML
-    })
-    // console.log(tr2.innerHTML)
-    // var slkdf = tr2.innerHTML;
+document.addEventListener('keydown', function(event) {
+    //console.log(event.code)
+    // if (event.code == 'KeyZ' && (event.ctrlKey || event.metaKey)) {
+    //   alert('Отменить!')
+    // }
+
+    for (var i = 0; i < keys.length; i++) {
+        //console.log(keys[i].class)
+        if (event.code == keys[i].class) {
+            var nazal = document.querySelector('.' + event.code)
+            nazal.parentNode.classList.add('active')
+
+        }
+
+    }
+});
+
+
+document.addEventListener('keyup', function(event) {
+    for (var i = 0; i < document.querySelectorAll('.active').length; i++) {
+        if (document.querySelectorAll('.active')[i]) {
+            var po = document.querySelectorAll('.active')[i]
+            po.classList.remove('active')
+        }
+    }
+});

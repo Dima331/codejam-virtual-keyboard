@@ -23,10 +23,16 @@
     justify-content: center;
     margin-right: 10px;
     cursor: pointer;
+    transition: border-radius .3s, background .2s;
 }
 
-.slasher,
-.tab {
+.active {
+    background-color: #5571ee;
+    border-radius: 50px;
+}
+
+.Backslash,
+.Tab {
     min-width: 80px;
 }
 
