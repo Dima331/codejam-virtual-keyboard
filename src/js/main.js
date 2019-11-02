@@ -16,58 +16,58 @@ const keys = [
             { 'en': ['Backspace', 'Backspace'], 'ru': ['Backspace', 'Backspace'], 'keyCode': 8, 'class': 'Backspace', 'sizeClass': 'backspace' }
         ],
         [
-            { 'en': ['tab', 'tab'], 'ru': ['tab', 'tab'], 'keyCode': 9, 'class': 'Tab', 'sizeClass': 'Tab' },
-            { 'en': ['q', 'Q'], 'ru': ['й', 'Й'], 'keyCode': 81, 'class': 'Keyq' },
-            { 'en': ['w', 'W'], 'ru': ['ц', 'Ц'], 'keyCode': 87, 'class': 'Keyq' },
-            { 'en': ['e', 'E'], 'ru': ['у', 'У'], 'keyCode': 69, 'class': 'Keyq' },
-            { 'en': ['r', 'R'], 'ru': ['к', 'К'], 'keyCode': 82, 'class': 'Keyq' },
-            { 'en': ['t', 'T'], 'ru': ['е', 'Е'], 'keyCode': 84, 'class': 'Keyq' },
-            { 'en': ['y', 'Y'], 'ru': ['н', 'Н'], 'keyCode': 89, 'class': 'Keyq' },
-            { 'en': ['u', 'U'], 'ru': ['г', 'Г'], 'keyCode': 85, 'class': 'Keyq' },
-            { 'en': ['i', 'I'], 'ru': ['ш', 'Ш'], 'keyCode': 73, 'class': 'Keyq' },
-            { 'en': ['o', 'O'], 'ru': ['щ', 'Щ'], 'keyCode': 79, 'class': 'Keyq' },
-            { 'en': ['p', 'P'], 'ru': ['з', 'З'], 'keyCode': 80, 'class': 'Keyq' },
-            { 'en': ['[', '{'], 'ru': ['х', 'Х'], 'keyCode': 219, 'class': 'Minus' },
-            { 'en': [']', '}'], 'ru': ['ъ', 'Ъ'], 'keyCode': 221, 'class': 'Equal' },
-            { 'en': ['\\', '|'], 'ru': ['\\', '/'], 'keyCode': 220, 'class': 'Backslash', 'sizeClass': 'Backslash' }
+            { 'en': ['tab', 'tab'], 'ru': ['tab', 'tab'], 'keyCode': 9, 'class': 'Tab', 'sizeClass': 'tab' },
+            { 'en': ['q', 'Q'], 'ru': ['й', 'Й'], 'keyCode': 81, 'class': 'KeyQ' },
+            { 'en': ['w', 'W'], 'ru': ['ц', 'Ц'], 'keyCode': 87, 'class': 'KeyW' },
+            { 'en': ['e', 'E'], 'ru': ['у', 'У'], 'keyCode': 69, 'class': 'KeyE' },
+            { 'en': ['r', 'R'], 'ru': ['к', 'К'], 'keyCode': 82, 'class': 'KeyR' },
+            { 'en': ['t', 'T'], 'ru': ['е', 'Е'], 'keyCode': 84, 'class': 'KeyT' },
+            { 'en': ['y', 'Y'], 'ru': ['н', 'Н'], 'keyCode': 89, 'class': 'KeyY' },
+            { 'en': ['u', 'U'], 'ru': ['г', 'Г'], 'keyCode': 85, 'class': 'KeyU' },
+            { 'en': ['i', 'I'], 'ru': ['ш', 'Ш'], 'keyCode': 73, 'class': 'KeyI' },
+            { 'en': ['o', 'O'], 'ru': ['щ', 'Щ'], 'keyCode': 79, 'class': 'KeyO' },
+            { 'en': ['p', 'P'], 'ru': ['з', 'З'], 'keyCode': 80, 'class': 'KeyP' },
+            { 'en': ['[', '{'], 'ru': ['х', 'Х'], 'keyCode': 219, 'class': 'BracketLeft' },
+            { 'en': [']', '}'], 'ru': ['ъ', 'Ъ'], 'keyCode': 221, 'class': 'BracketRight' },
+            { 'en': ['\\', '|'], 'ru': ['\\', '/'], 'keyCode': 220, 'class': 'Backslash' }
         ],
         [
-            { 'en': ['capsLk', 'capsLk'], 'ru': ['capsLk', 'capsLk'], 'keyCode': 20, 'class': 'CapsLock', 'sizeClass': 'CapsLock' },
-            { 'en': ['a', 'A'], 'ru': ['ф', 'Ф'], 'keyCode': 65, 'class': 'Keyq' },
-            { 'en': ['s', 'S'], 'ru': ['ы', 'Ы'], 'keyCode': 83, 'class': 'Keyq' },
-            { 'en': ['d', 'D'], 'ru': ['в', 'В'], 'keyCode': 68, 'class': 'Keyq' },
-            { 'en': ['f', 'F'], 'ru': ['а', 'А'], 'keyCode': 70, 'class': 'Keyq' },
-            { 'en': ['g', 'G'], 'ru': ['п', 'П'], 'keyCode': 71, 'class': 'Keyq' },
-            { 'en': ['h', 'H'], 'ru': ['р', 'Р'], 'keyCode': 72, 'class': 'Keyq' },
-            { 'en': ['j', 'J'], 'ru': ['о', 'О'], 'keyCode': 74, 'class': 'Keyq' },
-            { 'en': ['k', 'K'], 'ru': ['л', 'Л'], 'keyCode': 75, 'class': 'Keyq' },
-            { 'en': ['l', 'L'], 'ru': ['д', 'Д'], 'keyCode': 76, 'class': 'Keyq' },
-            { 'en': [';', ';'], 'ru': ['ж', 'Ж'], 'keyCode': 186, 'class': 'Keyq' },
-            { 'en': ['\'', '\"'], 'ru': ['э', 'Э'], 'keyCode': 222, 'class': 'Minus' },
+            { 'en': ['capsLk', 'capsLk'], 'ru': ['capsLk', 'capsLk'], 'keyCode': 20, 'class': 'CapsLock', 'sizeClass': 'caps' },
+            { 'en': ['a', 'A'], 'ru': ['ф', 'Ф'], 'keyCode': 65, 'class': 'KeyA' },
+            { 'en': ['s', 'S'], 'ru': ['ы', 'Ы'], 'keyCode': 83, 'class': 'KeyS' },
+            { 'en': ['d', 'D'], 'ru': ['в', 'В'], 'keyCode': 68, 'class': 'KeyD' },
+            { 'en': ['f', 'F'], 'ru': ['а', 'А'], 'keyCode': 70, 'class': 'KeyF' },
+            { 'en': ['g', 'G'], 'ru': ['п', 'П'], 'keyCode': 71, 'class': 'KeyG' },
+            { 'en': ['h', 'H'], 'ru': ['р', 'Р'], 'keyCode': 72, 'class': 'KeyH' },
+            { 'en': ['j', 'J'], 'ru': ['о', 'О'], 'keyCode': 74, 'class': 'KeyJ' },
+            { 'en': ['k', 'K'], 'ru': ['л', 'Л'], 'keyCode': 75, 'class': 'KeyK' },
+            { 'en': ['l', 'L'], 'ru': ['д', 'Д'], 'keyCode': 76, 'class': 'KeyL' },
+            { 'en': [';', ';'], 'ru': ['ж', 'Ж'], 'keyCode': 186, 'class': 'Semicolon' },
+            { 'en': ['\'', '\"'], 'ru': ['э', 'Э'], 'keyCode': 222, 'class': 'Quote' },
             { 'en': ['enter', 'enter'], 'ru': ['enter', 'enter'], 'keyCode': 13, 'class': 'Enter', 'sizeClass': 'enter' }
         ],
         [
             { 'en': ['shift', 'shift'], 'ru': ['shift', 'shift'], 'keyCode': 16, 'class': 'ShiftLeft', 'sizeClass': 'shift' },
-            { 'en': ['z', 'Z'], 'ru': ['я', 'Я'], 'keyCode': 90, 'class': 'Keyq' },
-            { 'en': ['x', 'X'], 'ru': ['ч', 'Ч'], 'keyCode': 88, 'class': 'Keyq' },
-            { 'en': ['c', 'C'], 'ru': ['с', 'С'], 'keyCode': 67, 'class': 'Keyq' },
-            { 'en': ['v', 'V'], 'ru': ['м', 'М'], 'keyCode': 86, 'class': 'Keyq' },
-            { 'en': ['b', 'B'], 'ru': ['и', 'И'], 'keyCode': 66, 'class': 'Keyq' },
-            { 'en': ['n', 'N'], 'ru': ['т', 'Т'], 'keyCode': 78, 'class': 'Keyq' },
-            { 'en': ['m', 'M'], 'ru': ['ь', 'Ь'], 'keyCode': 77, 'class': 'Keyq' },
-            { 'en': [',', '<'], 'ru': ['б', 'Б'], 'keyCode': 188, 'class': 'Keyq' },
-            { 'en': ['.', '>'], 'ru': ['ю', 'Ю'], 'keyCode': 190, 'class': 'Keyq' },
-            { 'en': ['/', '?'], 'ru': ['.', ','], 'keyCode': 191, 'class': 'Keyq' },
+            { 'en': ['z', 'Z'], 'ru': ['я', 'Я'], 'keyCode': 90, 'class': 'KeyZ' },
+            { 'en': ['x', 'X'], 'ru': ['ч', 'Ч'], 'keyCode': 88, 'class': 'KeyX' },
+            { 'en': ['c', 'C'], 'ru': ['с', 'С'], 'keyCode': 67, 'class': 'KeyC' },
+            { 'en': ['v', 'V'], 'ru': ['м', 'М'], 'keyCode': 86, 'class': 'KeyV' },
+            { 'en': ['b', 'B'], 'ru': ['и', 'И'], 'keyCode': 66, 'class': 'KeyB' },
+            { 'en': ['n', 'N'], 'ru': ['т', 'Т'], 'keyCode': 78, 'class': 'KeyN' },
+            { 'en': ['m', 'M'], 'ru': ['ь', 'Ь'], 'keyCode': 77, 'class': 'KeyM' },
+            { 'en': [',', '<'], 'ru': ['б', 'Б'], 'keyCode': 188, 'class': 'Comma' },
+            { 'en': ['.', '>'], 'ru': ['ю', 'Ю'], 'keyCode': 190, 'class': 'Period' },
+            { 'en': ['/', '?'], 'ru': ['.', ','], 'keyCode': 191, 'class': 'Slash' },
             { 'en': ['shift', 'shift'], 'ru': ['shift', 'shift'], 'keyCode': 16, 'class': 'ShiftRight', 'sizeClass': 'shift' }
         ],
         [
-            { 'en': ['ctrl', 'ctrl'], 'ru': ['ctrl', 'ctrl'], 'keyCode': 17, 'class': 'ControlLeft', 'sizeClass': 'ControlLeft' },
-            { 'en': ['win', 'win'], 'ru': ['win', 'win'], 'keyCode': 91, 'class': 'MetaLeft' },
-            { 'en': ['alt', 'alt'], 'ru': ['alt', 'alt'], 'keyCode': 18, 'class': 'AltLeft', 'sizeClass': 'AltLeft' },
+            { 'en': ['ctrl', 'ctrl'], 'ru': ['ctrl', 'ctrl'], 'keyCode': 17, 'class': 'ControlLeft', 'sizeClass': 'crtl' },
+            { 'en': ['win', 'win'], 'ru': ['win', 'win'], 'keyCode': 91, 'class': 'MetaLeft', 'sizeClass': 'win' },
+            { 'en': ['alt', 'alt'], 'ru': ['alt', 'alt'], 'keyCode': 18, 'class': 'AltLeft', 'sizeClass': 'alt' },
             { 'en': ['', ''], 'ru': ['', ''], 'keyCode': 32, 'class': 'Space', 'sizeClass': 'space' },
-            { 'en': ['alt', 'alt'], 'ru': ['alt', 'alt'], 'keyCode': 18, 'class': 'AltRight', 'sizeClass': 'AltRight' },
-            { 'en': ['set', 'set'], 'ru': ['set', 'set'], 'keyCode': 93, 'class': 'ContextMenu', 'sizeClass': 'ContextMenu' },
-            { 'en': ['ctrl', 'ctrl'], 'ru': ['ctrl', 'ctrl'], 'keyCode': 17, 'class': 'ControlRight', 'sizeClass': 'ControlRight' },
+            { 'en': ['alt', 'alt'], 'ru': ['alt', 'alt'], 'keyCode': 18, 'class': 'AltRight', 'sizeClass': 'alt' },
+            { 'en': ['win', 'win'], 'ru': ['win', 'win'], 'keyCode': 91, 'class': 'MetaRight', 'sizeClass': 'win' },
+            { 'en': ['ctrl', 'ctrl'], 'ru': ['ctrl', 'ctrl'], 'keyCode': 17, 'class': 'ControlRight', 'sizeClass': 'crtl' },
         ]
     ]
     //console.log(keys[0][0].en.length)
@@ -85,9 +85,9 @@ keywords.className = "keywords";
 
 wrapper.append(keywords);
 
-
-
-
+textarea.setAttribute("autofocus", true)
+textarea.setAttribute("rows", "6")
+textarea.setAttribute("cols", "60")
 
 for (var o = 0; o < keys.length; o++) {
     let keywords__row = document.createElement('li');
@@ -138,55 +138,136 @@ for (var o = 0; o < keys.length; o++) {
         }
     }
 }
-var click = document.querySelector('.keywords__row');
 
-click.addEventListener("click", function(e) {
-    var trigger;
+var click = document.querySelectorAll('.keywords__row');
+for (let tm = 0; tm < click.length; tm++) {
+    click[tm].addEventListener("click", function(e) {
+        var trigger;
 
-    if (e.target.classList.contains("keywords__row")) {
-        return
-    }
-    if (e.target.classList.contains("key")) {
-        trigger = e.target;
-    } else {
-        trigger = e.target.parentNode.parentNode;
-    }
+        if (e.target.classList.contains("keywords__row")) {
+            return
+        }
+        if (e.target.classList.contains("key")) {
+            trigger = e.target;
+        } else {
+            trigger = e.target.parentNode.parentNode;
+        }
+        if (trigger.classList.contains("caps")) {
+            var up = document.querySelectorAll('.up')
+            var down = document.querySelectorAll('.down')
+            for (var i = 0; i < down.length; i++) {
+                up[i].classList.remove('up')
+                down[i].classList.remove('down')
+                up[i].classList.add('down')
+                down[i].classList.add('up')
+            }
+            trigger.classList.add('active')
+            setTimeout(function() { trigger.classList.remove('active') }, 200)
+            return
+        }
+        if (trigger.classList.contains("crtl") || trigger.classList.contains("alt") || trigger.classList.contains("win")) {
+            trigger.classList.add('active')
+            setTimeout(function() { trigger.classList.remove('active') }, 200)
+            return
+        }
+        if (trigger.classList.contains("tab")) {
+            event.preventDefault();
+            textarea.value = textarea.value + "\t"
+            trigger.classList.add('active')
+            setTimeout(function() { trigger.classList.remove('active') }, 200)
+            return
+        }
+        if (trigger.classList.contains("space")) {
+            textarea.value = textarea.value + " "
+            trigger.classList.add('active')
+            setTimeout(function() { trigger.classList.remove('active') }, 200)
+            return
+        }
+        if (trigger.classList.contains("backspace")) {
+            textarea.value = textarea.value.substring(0, textarea.value.length - 1)
+            trigger.classList.add('active')
+            setTimeout(function() { trigger.classList.remove('active') }, 200)
+            return
+        }
+        if (trigger.classList.contains("enter")) {
+            textarea.value = textarea.value + "\n"
+            trigger.classList.add('active')
+            setTimeout(function() { trigger.classList.remove('active') }, 200)
+            return
+        }
 
-    for (var i = 0; i < trigger.childNodes.length; i++) {
-        if (trigger.childNodes[i].classList.contains('on')) {
-            var tr = trigger.childNodes[i]
+        for (var i = 0; i < trigger.childNodes.length; i++) {
+            if (trigger.childNodes[i].classList.contains('on')) {
+                var tr = trigger.childNodes[i]
 
-            for (var j = 0; j < tr.childNodes.length; j++) {
-                if (tr.childNodes[j].classList.contains('up')) {
-                    var tr2 = tr.childNodes[j]
+                for (var j = 0; j < tr.childNodes.length; j++) {
+                    if (tr.childNodes[j].classList.contains('up')) {
+                        var tr2 = tr.childNodes[j]
+                    }
                 }
             }
         }
-    }
-    console.log(tr2.innerHTML)
-        //trigger.classList.contains('on').classList.contains('up')
-        // if(trigger.childNodes.className == 'on'){
+        console.log(tr2.innerHTML)
+            //trigger.classList.contains('on').classList.contains('up')
+            // if(trigger.childNodes.className == 'on'){
 
-    // }
-    trigger.classList.add('active')
-    setTimeout(function() { trigger.classList.remove('active') }, 200)
-    textarea.value = textarea.value + tr2.innerHTML
-})
+        // }
+        // if (event.code == 'CapsLock') {
+        //     var up = document.querySelectorAll('.up')
+        //     var down = document.querySelectorAll('.down')
+        //     for (var i = 0; i < down.length; i++) {
+        //         up[i].classList.remove('up')
+        //         down[i].classList.remove('down')
+        //         up[i].classList.add('down')
+        //         down[i].classList.add('up')
+        //     }
+        // }
+        trigger.classList.add('active')
+        setTimeout(function() { trigger.classList.remove('active') }, 200)
+        textarea.value = textarea.value + tr2.innerHTML
+    })
+}
+
+
+
+
+
+
+
+
+
 
 document.addEventListener('keydown', function(event) {
-    //console.log(event.code)
-    // if (event.code == 'KeyZ' && (event.ctrlKey || event.metaKey)) {
-    //   alert('Отменить!')
-    // }
+    //console.log(textarea.value)
+    for (var o = 0; o < keys.length; o++) {
+        for (var i = 0; i < keys[o].length; i++) {
+            if (event.code == keys[o][i].class) {
+                var nazal = document.querySelector('.' + event.code)
+                nazal.parentNode.classList.add('active')
 
-    for (var i = 0; i < keys.length; i++) {
-        //console.log(keys[i].class)
-        if (event.code == keys[i].class) {
-            var nazal = document.querySelector('.' + event.code)
-            nazal.parentNode.classList.add('active')
-
+            }
         }
-
+    }
+    if (event.code == 'Tab') {
+        event.preventDefault();
+        textarea.value = textarea.value + "\t"
+    }
+    if (event.code == 'CapsLock') {
+        var up = document.querySelectorAll('.up')
+        var down = document.querySelectorAll('.down')
+            // //переключение языка
+            // for (var i = 0; i < on.length; i++) {
+            //     on[i].classList.remove('on')
+            //     off[i].classList.remove('off')
+            //     on[i].classList.add('off')
+            //     off[i].classList.add('on')
+            // }
+        for (var i = 0; i < down.length; i++) {
+            up[i].classList.remove('up')
+            down[i].classList.remove('down')
+            up[i].classList.add('down')
+            down[i].classList.add('up')
+        }
     }
 });
 
