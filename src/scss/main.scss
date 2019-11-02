@@ -40,3 +40,12 @@
 .space {
     min-width: 370px;
 }
+
+.off,
+.down {
+    display: none;
+}
+
+.up {
+    display: inherit;
+}
