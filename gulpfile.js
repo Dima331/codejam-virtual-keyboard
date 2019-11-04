@@ -14,7 +14,7 @@ const uglify = require('gulp-uglify'); // минификация js
 const svgSprite = require('gulp-svg-sprite') //склейка свг
 const svgo = require('gulp-svgo') // чистка свг
 const pug = require('gulp-pug'); //пуг
-const eslint = require('gulp-eslint');
+//const eslint = require('gulp-eslint');
 
 const reload = browserSync.reload
 sass.compiler = require('node-sass')

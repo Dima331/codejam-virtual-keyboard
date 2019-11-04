@@ -70,7 +70,6 @@ const keys = [
         { 'en': ['ctrl', 'ctrl'], 'ru': ['ctrl', 'ctrl'], 'keyCode': 17, 'class': 'ControlRight', 'sizeClass': 'crtl' },
     ]
 ]
-//console.log(keys[0][0].en.length)
 let div = document.createElement('div');
 div.className = "wrapper";
 document.body.append(div);
