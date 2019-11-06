@@ -1,0 +1,79 @@
+@import "base/*.scss";
+
+.wrapper {
+    width: 885px;
+    margin: 0 auto;
+}
+
+.keywords {
+    display: flex;
+    flex-direction: column;
+}
+
+.keywords__row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.key {
+    padding: 10px 20px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: border-radius .3s, background .2s;
+    text-align: center;
+    min-width: 51px;
+    color: #fff;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+::-moz-selection {  
+    color: none; 
+    background: none; 
+} 
+  
+::selection { 
+    color: none; 
+    background: none; 
+} 
+
+.active {
+    background-color: #5571ee;
+    border-radius: 50px;
+}
+
+.Backslash,
+.Tab {
+    min-width: 80px;
+}
+
+.shift {
+    min-width: 132px;
+}
+
+.enter {
+    min-width: 135px;
+}
+
+.space {
+    min-width: 449px;
+}
+
+.off,
+.down {
+    display: none;
+}
+
+.up {
+    display: inherit;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 80px;
+}
