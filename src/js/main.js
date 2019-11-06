@@ -17,46 +17,46 @@ const keys = [
     ],
     [
         { 'en': ['tab', 'tab'], 'ru': ['tab', 'tab'], 'keyCode': 9, 'class': 'Tab', 'sizeClass': 'tab' },
-        { 'en': ['q', 'Q'], 'ru': ['й', 'Й'], 'keyCode': 81, 'class': 'KeyQ' },
-        { 'en': ['w', 'W'], 'ru': ['ц', 'Ц'], 'keyCode': 87, 'class': 'KeyW' },
-        { 'en': ['e', 'E'], 'ru': ['у', 'У'], 'keyCode': 69, 'class': 'KeyE' },
-        { 'en': ['r', 'R'], 'ru': ['к', 'К'], 'keyCode': 82, 'class': 'KeyR' },
-        { 'en': ['t', 'T'], 'ru': ['е', 'Е'], 'keyCode': 84, 'class': 'KeyT' },
-        { 'en': ['y', 'Y'], 'ru': ['н', 'Н'], 'keyCode': 89, 'class': 'KeyY' },
-        { 'en': ['u', 'U'], 'ru': ['г', 'Г'], 'keyCode': 85, 'class': 'KeyU' },
-        { 'en': ['i', 'I'], 'ru': ['ш', 'Ш'], 'keyCode': 73, 'class': 'KeyI' },
-        { 'en': ['o', 'O'], 'ru': ['щ', 'Щ'], 'keyCode': 79, 'class': 'KeyO' },
-        { 'en': ['p', 'P'], 'ru': ['з', 'З'], 'keyCode': 80, 'class': 'KeyP' },
-        { 'en': ['[', '{'], 'ru': ['х', 'Х'], 'keyCode': 219, 'class': 'BracketLeft' },
-        { 'en': [']', '}'], 'ru': ['ъ', 'Ъ'], 'keyCode': 221, 'class': 'BracketRight' },
+        { 'en': ['q', 'Q'], 'ru': ['й', 'Й'], 'keyCode': 81, 'class': 'KeyQ Key' },
+        { 'en': ['w', 'W'], 'ru': ['ц', 'Ц'], 'keyCode': 87, 'class': 'KeyW Key' },
+        { 'en': ['e', 'E'], 'ru': ['у', 'У'], 'keyCode': 69, 'class': 'KeyE Key' },
+        { 'en': ['r', 'R'], 'ru': ['к', 'К'], 'keyCode': 82, 'class': 'KeyR Key' },
+        { 'en': ['t', 'T'], 'ru': ['е', 'Е'], 'keyCode': 84, 'class': 'KeyT Key' },
+        { 'en': ['y', 'Y'], 'ru': ['н', 'Н'], 'keyCode': 89, 'class': 'KeyY Key' },
+        { 'en': ['u', 'U'], 'ru': ['г', 'Г'], 'keyCode': 85, 'class': 'KeyU Key' },
+        { 'en': ['i', 'I'], 'ru': ['ш', 'Ш'], 'keyCode': 73, 'class': 'KeyI Key' },
+        { 'en': ['o', 'O'], 'ru': ['щ', 'Щ'], 'keyCode': 79, 'class': 'KeyO Key' },
+        { 'en': ['p', 'P'], 'ru': ['з', 'З'], 'keyCode': 80, 'class': 'KeyP Key' },
+        { 'en': ['[', '{'], 'ru': ['х', 'Х'], 'keyCode': 219, 'class': 'BracketLeft Key' },
+        { 'en': [']', '}'], 'ru': ['ъ', 'Ъ'], 'keyCode': 221, 'class': 'BracketRight Key' },
         { 'en': ['\\', '|'], 'ru': ['\\', '/'], 'keyCode': 220, 'class': 'Backslash' }
     ],
     [
         { 'en': ['capsLk', 'capsLk'], 'ru': ['capsLk', 'capsLk'], 'keyCode': 20, 'class': 'CapsLock', 'sizeClass': 'caps' },
-        { 'en': ['a', 'A'], 'ru': ['ф', 'Ф'], 'keyCode': 65, 'class': 'KeyA' },
-        { 'en': ['s', 'S'], 'ru': ['ы', 'Ы'], 'keyCode': 83, 'class': 'KeyS' },
-        { 'en': ['d', 'D'], 'ru': ['в', 'В'], 'keyCode': 68, 'class': 'KeyD' },
-        { 'en': ['f', 'F'], 'ru': ['а', 'А'], 'keyCode': 70, 'class': 'KeyF' },
-        { 'en': ['g', 'G'], 'ru': ['п', 'П'], 'keyCode': 71, 'class': 'KeyG' },
-        { 'en': ['h', 'H'], 'ru': ['р', 'Р'], 'keyCode': 72, 'class': 'KeyH' },
-        { 'en': ['j', 'J'], 'ru': ['о', 'О'], 'keyCode': 74, 'class': 'KeyJ' },
-        { 'en': ['k', 'K'], 'ru': ['л', 'Л'], 'keyCode': 75, 'class': 'KeyK' },
-        { 'en': ['l', 'L'], 'ru': ['д', 'Д'], 'keyCode': 76, 'class': 'KeyL' },
-        { 'en': [';', ';'], 'ru': ['ж', 'Ж'], 'keyCode': 186, 'class': 'Semicolon' },
-        { 'en': ['\'', '\"'], 'ru': ['э', 'Э'], 'keyCode': 222, 'class': 'Quote' },
+        { 'en': ['a', 'A'], 'ru': ['ф', 'Ф'], 'keyCode': 65, 'class': 'KeyA Key' },
+        { 'en': ['s', 'S'], 'ru': ['ы', 'Ы'], 'keyCode': 83, 'class': 'KeyS Key' },
+        { 'en': ['d', 'D'], 'ru': ['в', 'В'], 'keyCode': 68, 'class': 'KeyD Key' },
+        { 'en': ['f', 'F'], 'ru': ['а', 'А'], 'keyCode': 70, 'class': 'KeyF Key' },
+        { 'en': ['g', 'G'], 'ru': ['п', 'П'], 'keyCode': 71, 'class': 'KeyG Key' },
+        { 'en': ['h', 'H'], 'ru': ['р', 'Р'], 'keyCode': 72, 'class': 'KeyH Key' },
+        { 'en': ['j', 'J'], 'ru': ['о', 'О'], 'keyCode': 74, 'class': 'KeyJ Key' },
+        { 'en': ['k', 'K'], 'ru': ['л', 'Л'], 'keyCode': 75, 'class': 'KeyK Key' },
+        { 'en': ['l', 'L'], 'ru': ['д', 'Д'], 'keyCode': 76, 'class': 'KeyL Key' },
+        { 'en': [';', ';'], 'ru': ['ж', 'Ж'], 'keyCode': 186, 'class': 'Semicolon Key' },
+        { 'en': ['\'', '\"'], 'ru': ['э', 'Э'], 'keyCode': 222, 'class': 'Quote Key' },
         { 'en': ['enter', 'enter'], 'ru': ['enter', 'enter'], 'keyCode': 13, 'class': 'Enter', 'sizeClass': 'enter' }
     ],
     [
         { 'en': ['shift', 'shift'], 'ru': ['shift', 'shift'], 'keyCode': 16, 'class': 'ShiftLeft', 'sizeClass': 'shift' },
-        { 'en': ['z', 'Z'], 'ru': ['я', 'Я'], 'keyCode': 90, 'class': 'KeyZ' },
-        { 'en': ['x', 'X'], 'ru': ['ч', 'Ч'], 'keyCode': 88, 'class': 'KeyX' },
-        { 'en': ['c', 'C'], 'ru': ['с', 'С'], 'keyCode': 67, 'class': 'KeyC' },
-        { 'en': ['v', 'V'], 'ru': ['м', 'М'], 'keyCode': 86, 'class': 'KeyV' },
-        { 'en': ['b', 'B'], 'ru': ['и', 'И'], 'keyCode': 66, 'class': 'KeyB' },
-        { 'en': ['n', 'N'], 'ru': ['т', 'Т'], 'keyCode': 78, 'class': 'KeyN' },
-        { 'en': ['m', 'M'], 'ru': ['ь', 'Ь'], 'keyCode': 77, 'class': 'KeyM' },
-        { 'en': [',', '<'], 'ru': ['б', 'Б'], 'keyCode': 188, 'class': 'Comma' },
-        { 'en': ['.', '>'], 'ru': ['ю', 'Ю'], 'keyCode': 190, 'class': 'Period' },
+        { 'en': ['z', 'Z'], 'ru': ['я', 'Я'], 'keyCode': 90, 'class': 'KeyZ Key' },
+        { 'en': ['x', 'X'], 'ru': ['ч', 'Ч'], 'keyCode': 88, 'class': 'KeyX Key' },
+        { 'en': ['c', 'C'], 'ru': ['с', 'С'], 'keyCode': 67, 'class': 'KeyC Key' },
+        { 'en': ['v', 'V'], 'ru': ['м', 'М'], 'keyCode': 86, 'class': 'KeyV Key' },
+        { 'en': ['b', 'B'], 'ru': ['и', 'И'], 'keyCode': 66, 'class': 'KeyB Key' },
+        { 'en': ['n', 'N'], 'ru': ['т', 'Т'], 'keyCode': 78, 'class': 'KeyN Key' },
+        { 'en': ['m', 'M'], 'ru': ['ь', 'Ь'], 'keyCode': 77, 'class': 'KeyM Key' },
+        { 'en': [',', '<'], 'ru': ['б', 'Б'], 'keyCode': 188, 'class': 'Comma Key' },
+        { 'en': ['.', '>'], 'ru': ['ю', 'Ю'], 'keyCode': 190, 'class': 'Period Key' },
         { 'en': ['/', '?'], 'ru': ['.', ','], 'keyCode': 191, 'class': 'Slash' },
         { 'en': ['shift', 'shift'], 'ru': ['shift', 'shift'], 'keyCode': 16, 'class': 'ShiftRight', 'sizeClass': 'shift' }
     ],
@@ -70,78 +70,72 @@ const keys = [
         { 'en': ['ctrl', 'ctrl'], 'ru': ['ctrl', 'ctrl'], 'keyCode': 17, 'class': 'ControlRight', 'sizeClass': 'crtl' },
     ]
 ]
-let div = document.createElement('div');
-div.className = "wrapper";
-document.body.append(div);
 
-let wrapper = document.querySelector('.wrapper');
+let div = document.createElement('div')
+div.className = "wrapper"
+document.body.append(div)
 
-let textarea = document.createElement('textarea');
-wrapper.append(textarea);
-
-let keywords = document.createElement('ul');
-keywords.className = "keywords";
-
-wrapper.append(keywords);
-
+let textarea = document.createElement('textarea')
 textarea.setAttribute("autofocus", true)
-textarea.setAttribute("rows", "6")
+textarea.setAttribute("rows", "10")
 textarea.setAttribute("cols", "60")
+div.append(textarea)
 
-for (var o = 0; o < keys.length; o++) {
-    let keywords__row = document.createElement('li');
-    keywords__row.className = "keywords__row";
-    keywords.append(keywords__row);
-    //console.log(o)
-    for (var i = 0; i < keys[o].length; i++) {
-        var keyItem = keys[o][i]
-        var key = document.createElement('div');
+let keywords = document.createElement('ul')
+keywords.className = "keywords"
+div.append(keywords)
+
+keys.forEach(function (elem, row) {
+    let keywordsRow = document.createElement('li');
+    keywordsRow.className = "keywords__row"
+    keywords.append(keywordsRow)
+
+    keys[row].forEach(function (elem, i) {
+        let keyItem = keys[row][i]
+        let key = document.createElement('div')
         key.className = "key"
-        keywords__row.append(key)
-        if (keyItem.sizeClass) {
+        keywordsRow.append(key)
+
+        if (keyItem.sizeClass) { // add class for size block
             key.classList.add(keyItem.sizeClass)
         }
 
-        var spanOff = document.createElement('span');
-        spanOff.className = keyItem.class + " " + "off";
+        let spanOff = document.createElement('span') // back span, other language
+        spanOff.className = keyItem.class + " " + "off"
 
-        var spanOn = document.createElement('span');
-        spanOn.className = keyItem.class + " " + "on";
+        let spanOn = document.createElement('span') // front span, look language
+        spanOn.className = keyItem.class + " " + "on"
 
         key.append(spanOff)
         key.append(spanOn)
-        var counter = true;
 
-        for (var j = 0; j < keyItem.en.length; j++) {
-            var caseEn = document.createElement('span');
-            if (counter) {
-                caseEn.className = "case" + " " + "up";
-            } else {
-                caseEn.className = "case" + " " + "down";
-            }
-            caseEn.innerHTML = keyItem.en[j]
-            spanOn.append(caseEn)
-            counter = false
-        }
-        counter = true
-        for (var j = 0; j < keyItem.ru.length; j++) {
-            var caseRu = document.createElement('span');
-            if (counter) {
-                caseRu.className = "case" + " " + "up";
-            } else {
-                caseRu.className = "case" + " " + "down";
-            }
-            caseRu.innerHTML = keyItem.ru[j]
-            spanOff.append(caseRu)
-            counter = false
-        }
-    }
-}
+        change(keyItem.en, true)
+        change(keyItem.ru, false)
 
-var click = document.querySelectorAll('.keywords__row');
-for (let tm = 0; tm < click.length; tm++) {
-    click[tm].addEventListener("click", function (e) {
-        var trigger;
+        function change(keyItem, lan) {
+            let addOtherLan = true // current for back and front inscriptions
+
+            keyItem.forEach(function (elem, j) {
+                let caseLan = document.createElement('span')
+                if (addOtherLan) {
+                    caseLan.className = "case" + " " + "up"
+                } else {
+                    caseLan.className = "case" + " " + "down"
+                }
+                caseLan.innerHTML = keyItem[j]
+                lan ? spanOn.append(caseLan) : spanOff.append(caseLan)
+                addOtherLan = false
+            });
+        }
+    });
+});
+
+let caps = false; // change caps
+let click = document.querySelectorAll('.keywords__row');
+
+click.forEach(function (elem, i) {
+    click[i].addEventListener("click", function (e) {
+        let trigger; // target click
 
         if (e.target.classList.contains("keywords__row")) {
             return
@@ -151,213 +145,183 @@ for (let tm = 0; tm < click.length; tm++) {
         } else {
             trigger = e.target.parentNode.parentNode;
         }
+
         if (trigger.classList.contains("caps")) {
-            var up = document.querySelectorAll('.up')
-            var down = document.querySelectorAll('.down')
-            for (var i = 0; i < down.length; i++) {
-                up[i].classList.remove('up')
-                down[i].classList.remove('down')
-                up[i].classList.add('down')
-                down[i].classList.add('up')
-            }
-            trigger.classList.add('active')
-            setTimeout(function () { trigger.classList.remove('active') }, 200)
+            capsChange()
+            activeAnimation(trigger)
             return
         }
-        if (trigger.classList.contains("crtl") || trigger.classList.contains("alt") || trigger.classList.contains("win") ||  trigger.classList.contains("shift")) {
+        if (trigger.classList.contains("crtl")
+            || trigger.classList.contains("alt")
+            || trigger.classList.contains("win")
+            || trigger.classList.contains("shift")) {
             event.preventDefault();
-            trigger.classList.add('active')
-            setTimeout(function () { trigger.classList.remove('active') }, 200)
+            activeAnimation(trigger)
             return
         }
         if (trigger.classList.contains("tab")) {
             event.preventDefault();
             textarea.value = textarea.value + "\t"
-            trigger.classList.add('active')
-            setTimeout(function () { trigger.classList.remove('active') }, 200)
+            activeAnimation(trigger)
             return
         }
         if (trigger.classList.contains("space")) {
             textarea.value = textarea.value + " "
-            trigger.classList.add('active')
-            setTimeout(function () { trigger.classList.remove('active') }, 200)
+            activeAnimation(trigger)
             return
         }
         if (trigger.classList.contains("backspace")) {
             textarea.value = textarea.value.substring(0, textarea.value.length - 1)
-            trigger.classList.add('active')
-            setTimeout(function () { trigger.classList.remove('active') }, 200)
+            activeAnimation(trigger)
             return
         }
         if (trigger.classList.contains("enter")) {
             textarea.value = textarea.value + "\n"
-            trigger.classList.add('active')
-            setTimeout(function () { trigger.classList.remove('active') }, 200)
+            activeAnimation(trigger)
             return
         }
 
-        for (var i = 0; i < trigger.childNodes.length; i++) {
-            if (trigger.childNodes[i].classList.contains('on')) {
-                var tr = trigger.childNodes[i]
+        let pressBtn
+        let frontKeys
 
-                for (var j = 0; j < tr.childNodes.length; j++) {
-                    if (tr.childNodes[j].classList.contains('up')) {
-                        var tr2 = tr.childNodes[j]
+        trigger.childNodes.forEach(function (elem, i) {
+            if (elem.classList.contains('on')) {
+                frontKeys = trigger.childNodes[i]
+                frontKeys.childNodes.forEach(function (element, j) {
+                    if (element.classList.contains('up')) {
+                        pressBtn = frontKeys.childNodes[j]
                     }
-                }
+                });
             }
-        }
-        console.log(tr2.innerHTML)
-        //trigger.classList.contains('on').classList.contains('up')
-        // if(trigger.childNodes.className == 'on'){
-
-        // }
-        // if (event.code == 'CapsLock') {
-        //     var up = document.querySelectorAll('.up')
-        //     var down = document.querySelectorAll('.down')
-        //     for (var i = 0; i < down.length; i++) {
-        //         up[i].classList.remove('up')
-        //         down[i].classList.remove('down')
-        //         up[i].classList.add('down')
-        //         down[i].classList.add('up')
-        //     }
-        // }
-        trigger.classList.add('active')
-        setTimeout(function () { trigger.classList.remove('active') }, 200)
-        textarea.value = textarea.value + tr2.innerHTML
+        });
+        activeAnimation(trigger)
+        textarea.value = textarea.value + pressBtn.innerHTML
     })
-}
+});
 
+let pressShift = true; // one event press for shift
 
-
-
-
-
-
-
-var gh = true;
 document.addEventListener('keydown', function (event) {
-    //console.log(textarea.value)
-    //console.log(event)
-
+    let oneClass // need for capsLock. up only letters
     if (event) {
         textarea.focus();
     }
-    //textarea.value = textarea.value + event.key
-    for (var o = 0; o < keys.length; o++) {
-        for (var i = 0; i < keys[o].length; i++) {
-            if (event.code == keys[o][i].class) {
-                var nazal = document.querySelector('.' + event.code)
-                nazal.parentNode.classList.add('active')
-
+    keys.forEach(function (elem, o) {
+        keys[o].forEach(function (elem, i) {
+            oneClass = keys[o][i].class.split(' ')
+            if (event.code == oneClass[0]) {
+                let press = document.querySelector('.' + event.code)
+                press.parentNode.classList.add('active')
             }
-        }
-    }
+        });
+    });
+
     if (event.code == 'Tab') {
         event.preventDefault();
         textarea.value = textarea.value + "\t"
         return
     }
     if (event.code == 'AltLeft' || event.code == 'AltRight') {
-        console.log(event.code)
         event.preventDefault();
-        //return
     }
     if ((event.code == 'ShiftLeft' || event.code == 'ShiftRight')) {
-
-        if (gh) {
-            var up = document.querySelectorAll('.up')
-            var down = document.querySelectorAll('.down')
-            for (var i = 0; i < down.length; i++) {
-                up[i].classList.remove('up')
-                down[i].classList.remove('down')
-                up[i].classList.add('down')
-                down[i].classList.add('up')
-            }
+        if (pressShift) {
+            shiftChange()
         }
-        gh = false
-        //return
+        pressShift = false
     }
-    console.log(121)
-    if ((event.code == 'ShiftLeft' && event.altKey)||
-    (event.code == 'AltLeft' && event.shiftKey) ) {
-
-        var on = document.querySelectorAll('.on')
-        var off = document.querySelectorAll('.off')
-        for (var i = 0; i < on.length; i++) {
-            on[i].classList.remove('on')
-            off[i].classList.remove('off')
-            on[i].classList.add('off')
-            off[i].classList.add('on')
-        }
-        //localStorage.setItem('test', false);
-        if (localStorage.getItem('test', false) == "false") {
-            localStorage.setItem('test', true);
+    if ((event.code == 'ShiftLeft' && event.altKey) ||
+        (event.code == 'AltLeft' && event.shiftKey)) {
+        languageChange()
+        if (localStorage.getItem('language', false) == "false") {
+            localStorage.setItem('language', true);
         } else {
-            localStorage.setItem('test', false);
+            localStorage.setItem('language', false);
         }
-        gh = false
-        //return
+        pressShift = false
     }
-
-
-
-    
     if (event.code == 'CapsLock') {
-        var up = document.querySelectorAll('.up')
-        var down = document.querySelectorAll('.down')
-        for (var i = 0; i < down.length; i++) {
-            up[i].classList.remove('up')
-            down[i].classList.remove('down')
-            up[i].classList.add('down')
-            down[i].classList.add('up')
-        }
+        capsChange()
         return
     }
-
 });
 
 document.addEventListener('keyup', function (event) {
     if (event.code == 'ShiftLeft' && event.shiftKey) {
         return
     }
-    for (var i = 0; i < document.querySelectorAll('.active').length; i++) {
+    document.querySelectorAll('.active').forEach(function (elem, i) {
         if (document.querySelectorAll('.active')[i]) {
-            var po = document.querySelectorAll('.active')[i]
-            po.classList.remove('active')
+            let active = document.querySelectorAll('.active')[i]
+            active.classList.remove('active')
         }
+    });
+    if (event.code == 'ShiftLeft'
+        || event.code == 'ShiftRight') {
+        shiftChange()
+        pressShift = true
     }
-    if (event.code == 'ShiftLeft' || event.code == 'ShiftRight') {
+});
 
-        var up = document.querySelectorAll('.up')
-        var down = document.querySelectorAll('.down')
-        for (var i = 0; i < down.length; i++) {
+function capsChange(firstRun = false) {
+    let up = document.querySelectorAll('.up')
+    let down = document.querySelectorAll('.down')
+
+    down.forEach(function (elem, i) {
+        if (up[i].parentNode.classList.contains("Key")) {
             up[i].classList.remove('up')
             down[i].classList.remove('down')
             up[i].classList.add('down')
             down[i].classList.add('up')
-
         }
-        gh = true
+    });
+    if (!firstRun) {
+        caps ? caps = false : caps = true;
+        if (localStorage.getItem('caps', false) == "false") {
+            localStorage.setItem('caps', true);
+        } else {
+            localStorage.setItem('caps', false);
+        }
     }
-
-    // if (event.code == 'ShiftLeft' || event.code == 'ShiftRight') {
-    //     return
-    // }
-
-});
-if (!localStorage.getItem('test')) {
-    localStorage.setItem('test', true);
 }
-
-//console.log(localStorage.getItem('test'))
-if (localStorage.getItem('test') !== "false") {
-    var on = document.querySelectorAll('.on')
-    var off = document.querySelectorAll('.off')
-    for (var i = 0; i < on.length; i++) {
+function shiftChange() {
+    let up = document.querySelectorAll('.up')
+    let down = document.querySelectorAll('.down')
+    down.forEach(function (elem, i) {
+        up[i].classList.remove('up')
+        down[i].classList.remove('down')
+        up[i].classList.add('down')
+        down[i].classList.add('up')
+    });
+}
+function languageChange() {
+    let on = document.querySelectorAll('.on')
+    let off = document.querySelectorAll('.off')
+    off.forEach(function (elem, i) {
         on[i].classList.remove('on')
         off[i].classList.remove('off')
         on[i].classList.add('off')
         off[i].classList.add('on')
-    }
+    });
+}
+function activeAnimation(trigger) {
+    trigger.classList.add('active')
+    setTimeout(function () { trigger.classList.remove('active') }, 400)
+}
+
+if (!localStorage.getItem('language')) {
+    localStorage.setItem('language', true);
+}
+
+if (!localStorage.getItem('caps')) {
+    localStorage.setItem('caps', true);
+}
+
+if (localStorage.getItem('caps') !== "false") {
+    let firstRun = true
+    capsChange(firstRun)
+}
+
+if (localStorage.getItem('language') !== "false") {
+    languageChange()
 }

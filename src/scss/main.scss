@@ -25,12 +25,22 @@
     cursor: pointer;
     transition: border-radius .3s, background .2s;
     text-align: center;
-    min-width: 50px;
+    min-width: 51px;
     color: #fff;
     &:last-child{
         margin-right: 0;
     }
 }
+
+::-moz-selection {  
+    color: none; 
+    background: none; 
+} 
+  
+::selection { 
+    color: none; 
+    background: none; 
+} 
 
 .active {
     background-color: #5571ee;
@@ -43,7 +53,7 @@
 }
 
 .shift {
-    min-width: 135px;
+    min-width: 132px;
 }
 
 .enter {
